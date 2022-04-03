@@ -1,0 +1,279 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "roy",
+      "password": "123",
+      "location": "india",
+      "roles": [
+        "ADMIN",
+        "USER"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "sam",
+      "password": "123",
+      "location": "wales",
+      "roles": [
+        "ADMIN",
+        "USER"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "sam",
+      "password": "123",
+      "location": "wales",
+      "roles": [
+        "ADMIN",
+        "USER"
+      ]
+    },
+    {
+      "name": "Shona",
+      "location": "LA",
+      "id": 9
+    },
+    {
+      "username": "teorpo",
+      "password": "0944",
+      "repeatPassword": "0944",
+      "id": 10
+    },
+    {
+      "username": "abc",
+      "password": "bcc",
+      "repeatPassword": "bcc",
+      "id": 11
+    },
+    {
+      "username": "teopro",
+      "password": "0944",
+      "repeatPassword": "0944",
+      "addTime": "2022-04-02T21:50:22.688Z",
+      "id": 12
+    },
+    {
+      "username": "teopro",
+      "password": "0944",
+      "repeatPassword": "0944",
+      "addTime": "2022-04-02T21:50:37.943Z",
+      "id": 13
+    },
+    {
+      "username": "teopro",
+      "password": "0944",
+      "repeatPassword": "0944",
+      "addTime": "2022-04-02T21:50:44.924Z",
+      "id": 14
+    },
+    {
+      "username": "teopro",
+      "password": "0944",
+      "repeatPassword": "0944",
+      "addTime": "2022-04-02T21:51:06.611Z",
+      "id": 15
+    },
+    {
+      "username": "teorpo22",
+      "password": "0944",
+      "repeatPassword": "0944",
+      "addTime": "2022-04-03T08:16:57.749Z",
+      "id": 16
+    }
+  ],
+  "posts": [
+    {
+      "title": "ksdlkjsdgjlkjgl",
+      "content": "dsfnsdfnkdnfkfksdnfksn",
+      "image": "https://firebasestorage.googleapis.com/v0/b/blog-app-9d8cc.appspot.com/o/files%2Fheadbanner.png?alt=media&token=f6fa5f2c-c5ed-48b8-88a5-6614a63c5698",
+      "addTime": "2022-04-03T04:55:02.121Z",
+      "user": {
+        "username": "teorpo",
+        "password": "0944",
+        "repeatPassword": "0944",
+        "id": 10
+      },
+      "id": 2,
+      "name": "Shona",
+      "location": "aaaaa",
+      "comments": [
+        {
+          "user": {
+            "username": "teorpo",
+            "password": "0944",
+            "repeatPassword": "0944",
+            "id": 10
+          },
+          "addTime": "2022-04-03T06:19:05.777Z",
+          "content": "sadsadsad",
+          "comments": [
+            {
+              "user": {
+                "username": "teorpo",
+                "password": "0944",
+                "repeatPassword": "0944",
+                "id": 10
+              },
+              "addTime": "2022-04-03T06:54:04.514Z",
+              "content": "asdasdasdasdasdasdasdasdsad",
+              "comments": []
+            }
+          ]
+        },
+        {
+          "user": {
+            "username": "teorpo",
+            "password": "0944",
+            "repeatPassword": "0944",
+            "id": 10
+          },
+          "addTime": "2022-04-03T06:22:48.133Z",
+          "content": "asdasdsa",
+          "comments": []
+        },
+        {
+          "user": {
+            "username": "teorpo22",
+            "password": "0944",
+            "repeatPassword": "0944",
+            "addTime": "2022-04-03T08:16:57.749Z",
+            "id": 16
+          },
+          "addTime": "2022-04-03T08:17:22.233Z",
+          "content": "fdgfdgdfgdfgfdgdfg",
+          "comments": []
+        },
+        {
+          "user": {
+            "username": "teorpo22",
+            "password": "0944",
+            "repeatPassword": "0944",
+            "addTime": "2022-04-03T08:16:57.749Z",
+            "id": 16
+          },
+          "addTime": "2022-04-03T08:17:26.912Z",
+          "content": "dfdđ",
+          "comments": [
+            {
+              "user": {
+                "username": "teorpo22",
+                "password": "0944",
+                "repeatPassword": "0944",
+                "addTime": "2022-04-03T08:16:57.749Z",
+                "id": 16
+              },
+              "addTime": "2022-04-03T08:17:30.811Z",
+              "content": "sdfdsfdsfdsf",
+              "comments": []
+            }
+          ]
+        },
+        {
+          "user": {
+            "username": "teorpo22",
+            "password": "0944",
+            "repeatPassword": "0944",
+            "addTime": "2022-04-03T08:16:57.749Z",
+            "id": 16
+          },
+          "addTime": "2022-04-03T08:17:35.635Z",
+          "content": "dd",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "title": "F0 âm tính bao lâu mới có thể ăn uống, tiếp xúc bình thường với người khác: Bác sĩ Trương Hữu Khanh giải đáp",
+      "content": "Rất nhiều F0 thắc mắc, khi khỏi bệnh dù mình test nhanh có kết quả âm tính nhưng sau khi thực hiện PCR lại thu về kết quả dương tính, lúc này cần làm gì? Hơn nữa sau bao lâu khỏi bệnh thì có thể được hòa nhập cùng cộng đồng?\n\nCác câu hỏi này sẽ được bác sĩ Trương Hữu Khanh (Phó Chủ tịch thường trực Liên chi hội Truyền nhiễm TP HCM) giải đáp ngay bên dưới đây.\n\"Tôi bị COVID đến nay đã được 7 ngày, làm xét nghiệm nhanh cho kết quả âm tính nhưng khi tôi làm PCR thì dương tính, tôi nên làm gì? Liệu có phải 100% F0 khỏi bệnh đều nên làm xét nghiệm PCR không?\"\n\nViệc test nhanh cho kết quả âm tính nhưng PCR lại dương là điều bình thường. Bởi lẽ test nhanh thường kém nhạy hơn test PCR, nếu còn quá ít virus thì test nhanh không hiện nhưng PCR lại có. Đó là lý do vì sao có tình trạng người phục hồi test nhanh đã âm nhưng PCR thì chưa, hoặc người mới bệnh tải lượng virus chưa lên cao thì test nhanh không thấy nhưng PCR lại \"2 vạch\".\n\nTest nhanh âm tính chỉ có nghĩa là nguy cơ lây thấp vì còn ít hoặc không còn virus ở đường hô hấp trên. Do đó vẫn phải tiếp tục theo dõi và cách ly đủ 10 ngày. Ví dụ ngày thứ 7 bạn test nhanh âm tính thì không được chủ quan, vẫn phải đeo khẩu trang, theo dõi SP02 đủ 10 ngày.\n\nVề câu hỏi có phải 100% khỏi bệnh đều nên thực hiện PCR không, theo tôi với F0 tự điều trị tại nhà thì không cần PCR vì hiện nay Bộ Y tế đã công nhận kết quả test nhanh rồi. F0 tự điều trị tại nhà chỉ cần tuân thủ đầy đủ thời gian cách ly do Bộ Y tế quy định. Kết quả PCR chỉ cần thiết nếu bạn là bệnh nhân F0 điều trị tại bệnh viện.\n\nTôi là F0, đã cách ly đủ 7 ngày và có test nhanh âm tính, khi nào thì tôi có thể tiếp xúc bình thường với người khác?\n\nSau khi có kết quả dương tính, bạn nên cách ly, điều trị đủ 7 ngày. Nên test lại sau 7 ngày kể từ ngày phát hiện dương tính để kết quả chính xác nhất, nếu có kết quả âm tính thì tiếp tục cách ly đủ 10 ngày, trong thời gian đó vẫn cần tiếp tục tuân thủ đeo khẩu trang, 5K. Thông báo kết quả test nhanh âm tính với trạm y tế địa phương và nhận xác nhận khỏi bệnh.\n\nF0 khi cách ly, điều trị tại nhà cần phải thực hiện tốt các bước như: Khai báo y tế, thực hiện nghiêm 5K; Chấp hành nghiêm các quy định về thời gian cách ly y tế tại nhà; Không dùng chung đồ dùng, vật dụng cá nhân; Tự khử khuẩn nơi ở; Để riêng rác vào thùng có nắp đậy, loại bỏ rác thải riêng.\n\nF0 cần chủ động theo dõi sức khỏe, triệu chứng sinh tồn (mạch, huyết áp (nếu có máy đo), nhịp thở, nhiệt độ, SpO2); các triệu chứng (mệt mỏi, ớn lạnh, ho, mất mùi, đỏ mắt, tiêu chảy)…",
+      "image": "https://firebasestorage.googleapis.com/v0/b/blog-app-9d8cc.appspot.com/o/files%2F404.png?alt=media&token=ec4c40de-4dcd-4aa1-bd41-6863d0ebc713",
+      "addTime": "2022-04-03T05:37:38.518Z",
+      "user": {
+        "username": "teorpo",
+        "password": "0944",
+        "repeatPassword": "0944",
+        "id": 10
+      },
+      "id": 17
+    },
+    {
+      "title": "F0 âm tính bao lâu mới có thể ăn uống, tiếp xúc bình thường với người khác: Bác sĩ Trương Hữu Khanh giải đáp",
+      "content": "Rất nhiều F0 thắc mắc, khi khỏi bệnh dù mình test nhanh có kết quả âm tính nhưng sau khi thực hiện PCR lại thu về kết quả dương tính, lúc này cần làm gì? Hơn nữa sau bao lâu khỏi bệnh thì có thể được hòa nhập cùng cộng đồng?\n\nCác câu hỏi này sẽ được bác sĩ Trương Hữu Khanh (Phó Chủ tịch thường trực Liên chi hội Truyền nhiễm TP HCM) giải đáp ngay bên dưới đây.\n\"Tôi bị COVID đến nay đã được 7 ngày, làm xét nghiệm nhanh cho kết quả âm tính nhưng khi tôi làm PCR thì dương tính, tôi nên làm gì? Liệu có phải 100% F0 khỏi bệnh đều nên làm xét nghiệm PCR không?\"\n\nViệc test nhanh cho kết quả âm tính nhưng PCR lại dương là điều bình thường. Bởi lẽ test nhanh thường kém nhạy hơn test PCR, nếu còn quá ít virus thì test nhanh không hiện nhưng PCR lại có. Đó là lý do vì sao có tình trạng người phục hồi test nhanh đã âm nhưng PCR thì chưa, hoặc người mới bệnh tải lượng virus chưa lên cao thì test nhanh không thấy nhưng PCR lại \"2 vạch\".\n\nTest nhanh âm tính chỉ có nghĩa là nguy cơ lây thấp vì còn ít hoặc không còn virus ở đường hô hấp trên. Do đó vẫn phải tiếp tục theo dõi và cách ly đủ 10 ngày. Ví dụ ngày thứ 7 bạn test nhanh âm tính thì không được chủ quan, vẫn phải đeo khẩu trang, theo dõi SP02 đủ 10 ngày.\n\nVề câu hỏi có phải 100% khỏi bệnh đều nên thực hiện PCR không, theo tôi với F0 tự điều trị tại nhà thì không cần PCR vì hiện nay Bộ Y tế đã công nhận kết quả test nhanh rồi. F0 tự điều trị tại nhà chỉ cần tuân thủ đầy đủ thời gian cách ly do Bộ Y tế quy định. Kết quả PCR chỉ cần thiết nếu bạn là bệnh nhân F0 điều trị tại bệnh viện.\n\nTôi là F0, đã cách ly đủ 7 ngày và có test nhanh âm tính, khi nào thì tôi có thể tiếp xúc bình thường với người khác?\n\nSau khi có kết quả dương tính, bạn nên cách ly, điều trị đủ 7 ngày. Nên test lại sau 7 ngày kể từ ngày phát hiện dương tính để kết quả chính xác nhất, nếu có kết quả âm tính thì tiếp tục cách ly đủ 10 ngày, trong thời gian đó vẫn cần tiếp tục tuân thủ đeo khẩu trang, 5K. Thông báo kết quả test nhanh âm tính với trạm y tế địa phương và nhận xác nhận khỏi bệnh.\n\nF0 khi cách ly, điều trị tại nhà cần phải thực hiện tốt các bước như: Khai báo y tế, thực hiện nghiêm 5K; Chấp hành nghiêm các quy định về thời gian cách ly y tế tại nhà; Không dùng chung đồ dùng, vật dụng cá nhân; Tự khử khuẩn nơi ở; Để riêng rác vào thùng có nắp đậy, loại bỏ rác thải riêng.\n\nF0 cần chủ động theo dõi sức khỏe, triệu chứng sinh tồn (mạch, huyết áp (nếu có máy đo), nhịp thở, nhiệt độ, SpO2); các triệu chứng (mệt mỏi, ớn lạnh, ho, mất mùi, đỏ mắt, tiêu chảy)…",
+      "image": "https://firebasestorage.googleapis.com/v0/b/blog-app-9d8cc.appspot.com/o/files%2F404.png?alt=media&token=ec4c40de-4dcd-4aa1-bd41-6863d0ebc713",
+      "addTime": "2022-04-03T05:37:38.518Z",
+      "user": {
+        "username": "teorpo",
+        "password": "0944",
+        "repeatPassword": "0944",
+        "id": 10
+      },
+      "id": 16
+    },
+    {
+      "title": "F0 âm tính bao lâu mới có thể ăn uống, tiếp xúc bình thường với người khác: Bác sĩ Trương Hữu Khanh giải đáp",
+      "content": "Rất nhiều F0 thắc mắc, khi khỏi bệnh dù mình test nhanh có kết quả âm tính nhưng sau khi thực hiện PCR lại thu về kết quả dương tính, lúc này cần làm gì? Hơn nữa sau bao lâu khỏi bệnh thì có thể được hòa nhập cùng cộng đồng?\n\nCác câu hỏi này sẽ được bác sĩ Trương Hữu Khanh (Phó Chủ tịch thường trực Liên chi hội Truyền nhiễm TP HCM) giải đáp ngay bên dưới đây.\n\"Tôi bị COVID đến nay đã được 7 ngày, làm xét nghiệm nhanh cho kết quả âm tính nhưng khi tôi làm PCR thì dương tính, tôi nên làm gì? Liệu có phải 100% F0 khỏi bệnh đều nên làm xét nghiệm PCR không?\"\n\nViệc test nhanh cho kết quả âm tính nhưng PCR lại dương là điều bình thường. Bởi lẽ test nhanh thường kém nhạy hơn test PCR, nếu còn quá ít virus thì test nhanh không hiện nhưng PCR lại có. Đó là lý do vì sao có tình trạng người phục hồi test nhanh đã âm nhưng PCR thì chưa, hoặc người mới bệnh tải lượng virus chưa lên cao thì test nhanh không thấy nhưng PCR lại \"2 vạch\".\n\nTest nhanh âm tính chỉ có nghĩa là nguy cơ lây thấp vì còn ít hoặc không còn virus ở đường hô hấp trên. Do đó vẫn phải tiếp tục theo dõi và cách ly đủ 10 ngày. Ví dụ ngày thứ 7 bạn test nhanh âm tính thì không được chủ quan, vẫn phải đeo khẩu trang, theo dõi SP02 đủ 10 ngày.\n\nVề câu hỏi có phải 100% khỏi bệnh đều nên thực hiện PCR không, theo tôi với F0 tự điều trị tại nhà thì không cần PCR vì hiện nay Bộ Y tế đã công nhận kết quả test nhanh rồi. F0 tự điều trị tại nhà chỉ cần tuân thủ đầy đủ thời gian cách ly do Bộ Y tế quy định. Kết quả PCR chỉ cần thiết nếu bạn là bệnh nhân F0 điều trị tại bệnh viện.\n\nTôi là F0, đã cách ly đủ 7 ngày và có test nhanh âm tính, khi nào thì tôi có thể tiếp xúc bình thường với người khác?\n\nSau khi có kết quả dương tính, bạn nên cách ly, điều trị đủ 7 ngày. Nên test lại sau 7 ngày kể từ ngày phát hiện dương tính để kết quả chính xác nhất, nếu có kết quả âm tính thì tiếp tục cách ly đủ 10 ngày, trong thời gian đó vẫn cần tiếp tục tuân thủ đeo khẩu trang, 5K. Thông báo kết quả test nhanh âm tính với trạm y tế địa phương và nhận xác nhận khỏi bệnh.\n\nF0 khi cách ly, điều trị tại nhà cần phải thực hiện tốt các bước như: Khai báo y tế, thực hiện nghiêm 5K; Chấp hành nghiêm các quy định về thời gian cách ly y tế tại nhà; Không dùng chung đồ dùng, vật dụng cá nhân; Tự khử khuẩn nơi ở; Để riêng rác vào thùng có nắp đậy, loại bỏ rác thải riêng.\n\nF0 cần chủ động theo dõi sức khỏe, triệu chứng sinh tồn (mạch, huyết áp (nếu có máy đo), nhịp thở, nhiệt độ, SpO2); các triệu chứng (mệt mỏi, ớn lạnh, ho, mất mùi, đỏ mắt, tiêu chảy)…",
+      "image": "https://firebasestorage.googleapis.com/v0/b/blog-app-9d8cc.appspot.com/o/files%2F404.png?alt=media&token=ec4c40de-4dcd-4aa1-bd41-6863d0ebc713",
+      "addTime": "2022-04-03T05:37:38.518Z",
+      "user": {
+        "username": "teorpo",
+        "password": "0944",
+        "repeatPassword": "0944",
+        "id": 10
+      },
+      "id": 15
+    },
+    {
+      "title": "F0 âm tính bao lâu mới có thể ăn uống, tiếp xúc bình thường với người khác: Bác sĩ Trương Hữu Khanh giải đáp",
+      "content": "Rất nhiều F0 thắc mắc, khi khỏi bệnh dù mình test nhanh có kết quả âm tính nhưng sau khi thực hiện PCR lại thu về kết quả dương tính, lúc này cần làm gì? Hơn nữa sau bao lâu khỏi bệnh thì có thể được hòa nhập cùng cộng đồng?\n\nCác câu hỏi này sẽ được bác sĩ Trương Hữu Khanh (Phó Chủ tịch thường trực Liên chi hội Truyền nhiễm TP HCM) giải đáp ngay bên dưới đây.\n\"Tôi bị COVID đến nay đã được 7 ngày, làm xét nghiệm nhanh cho kết quả âm tính nhưng khi tôi làm PCR thì dương tính, tôi nên làm gì? Liệu có phải 100% F0 khỏi bệnh đều nên làm xét nghiệm PCR không?\"\n\nViệc test nhanh cho kết quả âm tính nhưng PCR lại dương là điều bình thường. Bởi lẽ test nhanh thường kém nhạy hơn test PCR, nếu còn quá ít virus thì test nhanh không hiện nhưng PCR lại có. Đó là lý do vì sao có tình trạng người phục hồi test nhanh đã âm nhưng PCR thì chưa, hoặc người mới bệnh tải lượng virus chưa lên cao thì test nhanh không thấy nhưng PCR lại \"2 vạch\".\n\nTest nhanh âm tính chỉ có nghĩa là nguy cơ lây thấp vì còn ít hoặc không còn virus ở đường hô hấp trên. Do đó vẫn phải tiếp tục theo dõi và cách ly đủ 10 ngày. Ví dụ ngày thứ 7 bạn test nhanh âm tính thì không được chủ quan, vẫn phải đeo khẩu trang, theo dõi SP02 đủ 10 ngày.\n\nVề câu hỏi có phải 100% khỏi bệnh đều nên thực hiện PCR không, theo tôi với F0 tự điều trị tại nhà thì không cần PCR vì hiện nay Bộ Y tế đã công nhận kết quả test nhanh rồi. F0 tự điều trị tại nhà chỉ cần tuân thủ đầy đủ thời gian cách ly do Bộ Y tế quy định. Kết quả PCR chỉ cần thiết nếu bạn là bệnh nhân F0 điều trị tại bệnh viện.\n\nTôi là F0, đã cách ly đủ 7 ngày và có test nhanh âm tính, khi nào thì tôi có thể tiếp xúc bình thường với người khác?\n\nSau khi có kết quả dương tính, bạn nên cách ly, điều trị đủ 7 ngày. Nên test lại sau 7 ngày kể từ ngày phát hiện dương tính để kết quả chính xác nhất, nếu có kết quả âm tính thì tiếp tục cách ly đủ 10 ngày, trong thời gian đó vẫn cần tiếp tục tuân thủ đeo khẩu trang, 5K. Thông báo kết quả test nhanh âm tính với trạm y tế địa phương và nhận xác nhận khỏi bệnh.\n\nF0 khi cách ly, điều trị tại nhà cần phải thực hiện tốt các bước như: Khai báo y tế, thực hiện nghiêm 5K; Chấp hành nghiêm các quy định về thời gian cách ly y tế tại nhà; Không dùng chung đồ dùng, vật dụng cá nhân; Tự khử khuẩn nơi ở; Để riêng rác vào thùng có nắp đậy, loại bỏ rác thải riêng.\n\nF0 cần chủ động theo dõi sức khỏe, triệu chứng sinh tồn (mạch, huyết áp (nếu có máy đo), nhịp thở, nhiệt độ, SpO2); các triệu chứng (mệt mỏi, ớn lạnh, ho, mất mùi, đỏ mắt, tiêu chảy)…",
+      "image": "https://firebasestorage.googleapis.com/v0/b/blog-app-9d8cc.appspot.com/o/files%2F404.png?alt=media&token=ec4c40de-4dcd-4aa1-bd41-6863d0ebc713",
+      "addTime": "2022-04-03T05:37:38.518Z",
+      "user": {
+        "username": "teorpo",
+        "password": "0944",
+        "repeatPassword": "0944",
+        "id": 10
+      },
+      "id": 14
+    },
+    {
+      "title": "F0 âm tính bao lâu mới có thể ăn uống, tiếp xúc bình thường với người khác: Bác sĩ Trương Hữu Khanh giải đáp",
+      "content": "Rất nhiều F0 thắc mắc, khi khỏi bệnh dù mình test nhanh có kết quả âm tính nhưng sau khi thực hiện PCR lại thu về kết quả dương tính, lúc này cần làm gì? Hơn nữa sau bao lâu khỏi bệnh thì có thể được hòa nhập cùng cộng đồng?\n\nCác câu hỏi này sẽ được bác sĩ Trương Hữu Khanh (Phó Chủ tịch thường trực Liên chi hội Truyền nhiễm TP HCM) giải đáp ngay bên dưới đây.\n\"Tôi bị COVID đến nay đã được 7 ngày, làm xét nghiệm nhanh cho kết quả âm tính nhưng khi tôi làm PCR thì dương tính, tôi nên làm gì? Liệu có phải 100% F0 khỏi bệnh đều nên làm xét nghiệm PCR không?\"\n\nViệc test nhanh cho kết quả âm tính nhưng PCR lại dương là điều bình thường. Bởi lẽ test nhanh thường kém nhạy hơn test PCR, nếu còn quá ít virus thì test nhanh không hiện nhưng PCR lại có. Đó là lý do vì sao có tình trạng người phục hồi test nhanh đã âm nhưng PCR thì chưa, hoặc người mới bệnh tải lượng virus chưa lên cao thì test nhanh không thấy nhưng PCR lại \"2 vạch\".\n\nTest nhanh âm tính chỉ có nghĩa là nguy cơ lây thấp vì còn ít hoặc không còn virus ở đường hô hấp trên. Do đó vẫn phải tiếp tục theo dõi và cách ly đủ 10 ngày. Ví dụ ngày thứ 7 bạn test nhanh âm tính thì không được chủ quan, vẫn phải đeo khẩu trang, theo dõi SP02 đủ 10 ngày.\n\nVề câu hỏi có phải 100% khỏi bệnh đều nên thực hiện PCR không, theo tôi với F0 tự điều trị tại nhà thì không cần PCR vì hiện nay Bộ Y tế đã công nhận kết quả test nhanh rồi. F0 tự điều trị tại nhà chỉ cần tuân thủ đầy đủ thời gian cách ly do Bộ Y tế quy định. Kết quả PCR chỉ cần thiết nếu bạn là bệnh nhân F0 điều trị tại bệnh viện.\n\nTôi là F0, đã cách ly đủ 7 ngày và có test nhanh âm tính, khi nào thì tôi có thể tiếp xúc bình thường với người khác?\n\nSau khi có kết quả dương tính, bạn nên cách ly, điều trị đủ 7 ngày. Nên test lại sau 7 ngày kể từ ngày phát hiện dương tính để kết quả chính xác nhất, nếu có kết quả âm tính thì tiếp tục cách ly đủ 10 ngày, trong thời gian đó vẫn cần tiếp tục tuân thủ đeo khẩu trang, 5K. Thông báo kết quả test nhanh âm tính với trạm y tế địa phương và nhận xác nhận khỏi bệnh.\n\nF0 khi cách ly, điều trị tại nhà cần phải thực hiện tốt các bước như: Khai báo y tế, thực hiện nghiêm 5K; Chấp hành nghiêm các quy định về thời gian cách ly y tế tại nhà; Không dùng chung đồ dùng, vật dụng cá nhân; Tự khử khuẩn nơi ở; Để riêng rác vào thùng có nắp đậy, loại bỏ rác thải riêng.\n\nF0 cần chủ động theo dõi sức khỏe, triệu chứng sinh tồn (mạch, huyết áp (nếu có máy đo), nhịp thở, nhiệt độ, SpO2); các triệu chứng (mệt mỏi, ớn lạnh, ho, mất mùi, đỏ mắt, tiêu chảy)…",
+      "image": "https://firebasestorage.googleapis.com/v0/b/blog-app-9d8cc.appspot.com/o/files%2F404.png?alt=media&token=ec4c40de-4dcd-4aa1-bd41-6863d0ebc713",
+      "addTime": "2022-04-03T05:37:38.518Z",
+      "user": {
+        "username": "teorpo",
+        "password": "0944",
+        "repeatPassword": "0944",
+        "id": 10
+      },
+      "id": 13
+    },
+    {
+      "title": "F0 âm tính bao lâu mới có thể ăn uống, tiếp xúc bình thường với người khác: Bác sĩ Trương Hữu Khanh giải đáp",
+      "content": "Rất nhiều F0 thắc mắc, khi khỏi bệnh dù mình test nhanh có kết quả âm tính nhưng sau khi thực hiện PCR lại thu về kết quả dương tính, lúc này cần làm gì? Hơn nữa sau bao lâu khỏi bệnh thì có thể được hòa nhập cùng cộng đồng?\n\nCác câu hỏi này sẽ được bác sĩ Trương Hữu Khanh (Phó Chủ tịch thường trực Liên chi hội Truyền nhiễm TP HCM) giải đáp ngay bên dưới đây.\n\"Tôi bị COVID đến nay đã được 7 ngày, làm xét nghiệm nhanh cho kết quả âm tính nhưng khi tôi làm PCR thì dương tính, tôi nên làm gì? Liệu có phải 100% F0 khỏi bệnh đều nên làm xét nghiệm PCR không?\"\n\nViệc test nhanh cho kết quả âm tính nhưng PCR lại dương là điều bình thường. Bởi lẽ test nhanh thường kém nhạy hơn test PCR, nếu còn quá ít virus thì test nhanh không hiện nhưng PCR lại có. Đó là lý do vì sao có tình trạng người phục hồi test nhanh đã âm nhưng PCR thì chưa, hoặc người mới bệnh tải lượng virus chưa lên cao thì test nhanh không thấy nhưng PCR lại \"2 vạch\".\n\nTest nhanh âm tính chỉ có nghĩa là nguy cơ lây thấp vì còn ít hoặc không còn virus ở đường hô hấp trên. Do đó vẫn phải tiếp tục theo dõi và cách ly đủ 10 ngày. Ví dụ ngày thứ 7 bạn test nhanh âm tính thì không được chủ quan, vẫn phải đeo khẩu trang, theo dõi SP02 đủ 10 ngày.\n\nVề câu hỏi có phải 100% khỏi bệnh đều nên thực hiện PCR không, theo tôi với F0 tự điều trị tại nhà thì không cần PCR vì hiện nay Bộ Y tế đã công nhận kết quả test nhanh rồi. F0 tự điều trị tại nhà chỉ cần tuân thủ đầy đủ thời gian cách ly do Bộ Y tế quy định. Kết quả PCR chỉ cần thiết nếu bạn là bệnh nhân F0 điều trị tại bệnh viện.\n\nTôi là F0, đã cách ly đủ 7 ngày và có test nhanh âm tính, khi nào thì tôi có thể tiếp xúc bình thường với người khác?\n\nSau khi có kết quả dương tính, bạn nên cách ly, điều trị đủ 7 ngày. Nên test lại sau 7 ngày kể từ ngày phát hiện dương tính để kết quả chính xác nhất, nếu có kết quả âm tính thì tiếp tục cách ly đủ 10 ngày, trong thời gian đó vẫn cần tiếp tục tuân thủ đeo khẩu trang, 5K. Thông báo kết quả test nhanh âm tính với trạm y tế địa phương và nhận xác nhận khỏi bệnh.\n\nF0 khi cách ly, điều trị tại nhà cần phải thực hiện tốt các bước như: Khai báo y tế, thực hiện nghiêm 5K; Chấp hành nghiêm các quy định về thời gian cách ly y tế tại nhà; Không dùng chung đồ dùng, vật dụng cá nhân; Tự khử khuẩn nơi ở; Để riêng rác vào thùng có nắp đậy, loại bỏ rác thải riêng.\n\nF0 cần chủ động theo dõi sức khỏe, triệu chứng sinh tồn (mạch, huyết áp (nếu có máy đo), nhịp thở, nhiệt độ, SpO2); các triệu chứng (mệt mỏi, ớn lạnh, ho, mất mùi, đỏ mắt, tiêu chảy)…",
+      "image": "https://firebasestorage.googleapis.com/v0/b/blog-app-9d8cc.appspot.com/o/files%2F404.png?alt=media&token=ec4c40de-4dcd-4aa1-bd41-6863d0ebc713",
+      "addTime": "2022-04-03T05:37:38.518Z",
+      "user": {
+        "username": "teorpo",
+        "password": "0944",
+        "repeatPassword": "0944",
+        "id": 10
+      },
+      "id": 12
+    },
+    {
+      "title": "F0 âm tính bao lâu mới có thể ăn uống, tiếp xúc bình thường với người khác: Bác sĩ Trương Hữu Khanh giải đáp",
+      "content": "Rất nhiều F0 thắc mắc, khi khỏi bệnh dù mình test nhanh có kết quả âm tính nhưng sau khi thực hiện PCR lại thu về kết quả dương tính, lúc này cần làm gì? Hơn nữa sau bao lâu khỏi bệnh thì có thể được hòa nhập cùng cộng đồng?\n\nCác câu hỏi này sẽ được bác sĩ Trương Hữu Khanh (Phó Chủ tịch thường trực Liên chi hội Truyền nhiễm TP HCM) giải đáp ngay bên dưới đây.\n\"Tôi bị COVID đến nay đã được 7 ngày, làm xét nghiệm nhanh cho kết quả âm tính nhưng khi tôi làm PCR thì dương tính, tôi nên làm gì? Liệu có phải 100% F0 khỏi bệnh đều nên làm xét nghiệm PCR không?\"\n\nViệc test nhanh cho kết quả âm tính nhưng PCR lại dương là điều bình thường. Bởi lẽ test nhanh thường kém nhạy hơn test PCR, nếu còn quá ít virus thì test nhanh không hiện nhưng PCR lại có. Đó là lý do vì sao có tình trạng người phục hồi test nhanh đã âm nhưng PCR thì chưa, hoặc người mới bệnh tải lượng virus chưa lên cao thì test nhanh không thấy nhưng PCR lại \"2 vạch\".\n\nTest nhanh âm tính chỉ có nghĩa là nguy cơ lây thấp vì còn ít hoặc không còn virus ở đường hô hấp trên. Do đó vẫn phải tiếp tục theo dõi và cách ly đủ 10 ngày. Ví dụ ngày thứ 7 bạn test nhanh âm tính thì không được chủ quan, vẫn phải đeo khẩu trang, theo dõi SP02 đủ 10 ngày.\n\nVề câu hỏi có phải 100% khỏi bệnh đều nên thực hiện PCR không, theo tôi với F0 tự điều trị tại nhà thì không cần PCR vì hiện nay Bộ Y tế đã công nhận kết quả test nhanh rồi. F0 tự điều trị tại nhà chỉ cần tuân thủ đầy đủ thời gian cách ly do Bộ Y tế quy định. Kết quả PCR chỉ cần thiết nếu bạn là bệnh nhân F0 điều trị tại bệnh viện.\n\nTôi là F0, đã cách ly đủ 7 ngày và có test nhanh âm tính, khi nào thì tôi có thể tiếp xúc bình thường với người khác?\n\nSau khi có kết quả dương tính, bạn nên cách ly, điều trị đủ 7 ngày. Nên test lại sau 7 ngày kể từ ngày phát hiện dương tính để kết quả chính xác nhất, nếu có kết quả âm tính thì tiếp tục cách ly đủ 10 ngày, trong thời gian đó vẫn cần tiếp tục tuân thủ đeo khẩu trang, 5K. Thông báo kết quả test nhanh âm tính với trạm y tế địa phương và nhận xác nhận khỏi bệnh.\n\nF0 khi cách ly, điều trị tại nhà cần phải thực hiện tốt các bước như: Khai báo y tế, thực hiện nghiêm 5K; Chấp hành nghiêm các quy định về thời gian cách ly y tế tại nhà; Không dùng chung đồ dùng, vật dụng cá nhân; Tự khử khuẩn nơi ở; Để riêng rác vào thùng có nắp đậy, loại bỏ rác thải riêng.\n\nF0 cần chủ động theo dõi sức khỏe, triệu chứng sinh tồn (mạch, huyết áp (nếu có máy đo), nhịp thở, nhiệt độ, SpO2); các triệu chứng (mệt mỏi, ớn lạnh, ho, mất mùi, đỏ mắt, tiêu chảy)…",
+      "image": "https://firebasestorage.googleapis.com/v0/b/blog-app-9d8cc.appspot.com/o/files%2F404.png?alt=media&token=ec4c40de-4dcd-4aa1-bd41-6863d0ebc713",
+      "addTime": "2022-04-03T05:37:38.518Z",
+      "user": {
+        "username": "teorpo",
+        "password": "0944",
+        "repeatPassword": "0944",
+        "id": 10
+      },
+      "id": 11
+    }
+  ]
+}
