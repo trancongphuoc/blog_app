@@ -22,7 +22,7 @@ class LoginPage extends React.Component {
     }
 
     login() {
-        const {username, password} = this.state;
+        const {username, password, remember} = this.state;
         const { history } = this.props;
         axios.get("http://localhost:3000/users?username="+ username)
             .then(res => {
@@ -31,6 +31,7 @@ class LoginPage extends React.Component {
                     if(user.password != password) {
                         toast.warn("Wrong password")
                     } else {
+                        user.remember = remember;
                         this.context.updateUser(user);
                         if (history) {
                             if (history.action == "PUSH") {

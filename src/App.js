@@ -18,6 +18,10 @@ import './assets/vendor/swiper/swiper-bundle.min.css'
 import './assets/vendor/animate.css/animate.min.css'
 import './assets/css/style.css'
 
+// import 'bootstrap/dist/css/bootstrap.min.css'
+// import 'jquery/dist/jquery.min.js'
+// import 'bootstrap/dist/js/bootstrap.min.js'
+
 import HomePage from './pages/HomePage/HomePage';
 import News from './pages/NewsPage/News';
 import LoginPage from './pages/LoginPage/LoginPage';
@@ -27,7 +31,12 @@ import Footer from './components/Footer';
 import CreatePostPage from './pages/CreatePostPage/CreatePostPage';
 import PostPage from './pages/PostPage/PostPage';
 import NotFoundPage from './pages/NotFoundPage/NotFountPage';
-
+import {Helmet} from "react-helmet";
+import EditPostPage from './pages/CreatePostPage/EditPostPage';
+// import './assets/vendor/swiper/swiper-bundle.min.js'
+// import './assets/vendor/bootstrap/js/bootstrap.bundle.min.js'
+// import './assets/vendor/php-email-form/validate.js'
+// import './assets/js/main.js'
 toast.configure();
 export default class App extends React.PureComponent {
   constructor() {
@@ -41,23 +50,31 @@ export default class App extends React.PureComponent {
   }
 
   componentDidMount() {
-    const script = document.createElement("script");
-    script.src = "./src/assets/js/main.js";
-    script.async = true;
-    document.body.appendChild(script);
-
+    
+    // this.addScript("./assets/vendor/bootstrap/js/bootstrap.bundle.min.js");
+    // this.addScript("./assets/vendor/swiper/swiper-bundle.min.js");
+    // this.addScript("./assets/vendor/php-email-form/validate.js");
+    // this.addScript("./assets/js/main.js");
     this.getUser();
   }
 
-  componentDidUpdate() {
+  addScript(url) {
     const script = document.createElement("script");
-    script.src = "./src/assets/js/main.js";
+    script.src = url;
     script.async = true;
+    script.onload = () => this.scriptLoaded();
+  
     document.body.appendChild(script);
+
+  }
+
+  componentDidUpdate() {
+    
   }
 
   getUser() {
-    const id = window.localStorage.getItem("id");
+    let id = window.sessionStorage.getItem("id");
+    if(id == null) id = window.localStorage.getItem("id");
     if (id != null) {
       axios.get("http://localhost:3000/users/" + id)
         .then(res => {
@@ -77,7 +94,14 @@ export default class App extends React.PureComponent {
 
   updateUser(user) {
     if (user != null) {
-      window.localStorage.setItem("id", user.id);
+      if(user.remember) {
+        window.localStorage.setItem("id", user.id);
+      } else {
+        window.sessionStorage.setItem("id", user.id);
+      }
+    } else {
+      window.sessionStorage.clear();
+      window.localStorage.clear();
     }
     this.setState({
       user: user
@@ -86,9 +110,17 @@ export default class App extends React.PureComponent {
 
   render() {
     const { user } = this.state;
-    const id = window.localStorage.getItem("id");
+    let id = window.localStorage.getItem("id");
+    if(id == null) id = window.sessionStorage.getItem("id");
     return (
       <div className="">
+        <Helmet>
+              {/* <script src={require("./assets/vendor/bootstrap/js/bootstrap.bundle.min.js")} type="text/javascript" /> */}
+              {/* <script src={require("./assets/vendor/swiper/swiper-bundle.min.js")} type="text/javascript" /> */}
+              {/* <script src={require("./assets/vendor/php-email-form/validate.js")} type="text/javascript" /> */}
+              {/* <script src={require("./assets/js/main.js")} type="text/javascript" /> */}
+
+            </Helmet>
         <MyContextProvider value={this.state}>
           <Router>
             <Header />
@@ -102,8 +134,14 @@ export default class App extends React.PureComponent {
               </Route>
               <Route path='/news' component={News}></Route>
               <Route path='/post/:postId' component={PostPage}></Route>
+              <Route path='/edit-post/:postId' component={EditPostPage}></Route>
+
               <Route path="/create-post">
                 {id ? <CreatePostPage /> : <Redirect to="/" />}
+              </Route>
+
+              <Route path="/edit-post/:postId">
+                {id ? <EditPostPage /> : <Redirect to="/" />}
               </Route>
 
               <Route component={NotFoundPage}></Route>

@@ -39,7 +39,11 @@
       "username": "teorpo",
       "password": "0944",
       "repeatPassword": "0944",
-      "id": 10
+      "id": 10,
+      "roles": [
+        "ADMIN",
+        "USER"
+      ]
     },
     {
       "username": "abc",
@@ -66,7 +70,11 @@
       "password": "0944",
       "repeatPassword": "0944",
       "addTime": "2022-04-02T21:50:44.924Z",
-      "id": 14
+      "id": 14,
+      "roles": [
+        "ADMIN",
+        "USER"
+      ]
     },
     {
       "username": "teopro",
@@ -221,32 +229,6 @@
         "repeatPassword": "0944",
         "id": 10
       },
-      "id": 15
-    },
-    {
-      "title": "F0 âm tính bao lâu mới có thể ăn uống, tiếp xúc bình thường với người khác: Bác sĩ Trương Hữu Khanh giải đáp",
-      "content": "Rất nhiều F0 thắc mắc, khi khỏi bệnh dù mình test nhanh có kết quả âm tính nhưng sau khi thực hiện PCR lại thu về kết quả dương tính, lúc này cần làm gì? Hơn nữa sau bao lâu khỏi bệnh thì có thể được hòa nhập cùng cộng đồng?\n\nCác câu hỏi này sẽ được bác sĩ Trương Hữu Khanh (Phó Chủ tịch thường trực Liên chi hội Truyền nhiễm TP HCM) giải đáp ngay bên dưới đây.\n\"Tôi bị COVID đến nay đã được 7 ngày, làm xét nghiệm nhanh cho kết quả âm tính nhưng khi tôi làm PCR thì dương tính, tôi nên làm gì? Liệu có phải 100% F0 khỏi bệnh đều nên làm xét nghiệm PCR không?\"\n\nViệc test nhanh cho kết quả âm tính nhưng PCR lại dương là điều bình thường. Bởi lẽ test nhanh thường kém nhạy hơn test PCR, nếu còn quá ít virus thì test nhanh không hiện nhưng PCR lại có. Đó là lý do vì sao có tình trạng người phục hồi test nhanh đã âm nhưng PCR thì chưa, hoặc người mới bệnh tải lượng virus chưa lên cao thì test nhanh không thấy nhưng PCR lại \"2 vạch\".\n\nTest nhanh âm tính chỉ có nghĩa là nguy cơ lây thấp vì còn ít hoặc không còn virus ở đường hô hấp trên. Do đó vẫn phải tiếp tục theo dõi và cách ly đủ 10 ngày. Ví dụ ngày thứ 7 bạn test nhanh âm tính thì không được chủ quan, vẫn phải đeo khẩu trang, theo dõi SP02 đủ 10 ngày.\n\nVề câu hỏi có phải 100% khỏi bệnh đều nên thực hiện PCR không, theo tôi với F0 tự điều trị tại nhà thì không cần PCR vì hiện nay Bộ Y tế đã công nhận kết quả test nhanh rồi. F0 tự điều trị tại nhà chỉ cần tuân thủ đầy đủ thời gian cách ly do Bộ Y tế quy định. Kết quả PCR chỉ cần thiết nếu bạn là bệnh nhân F0 điều trị tại bệnh viện.\n\nTôi là F0, đã cách ly đủ 7 ngày và có test nhanh âm tính, khi nào thì tôi có thể tiếp xúc bình thường với người khác?\n\nSau khi có kết quả dương tính, bạn nên cách ly, điều trị đủ 7 ngày. Nên test lại sau 7 ngày kể từ ngày phát hiện dương tính để kết quả chính xác nhất, nếu có kết quả âm tính thì tiếp tục cách ly đủ 10 ngày, trong thời gian đó vẫn cần tiếp tục tuân thủ đeo khẩu trang, 5K. Thông báo kết quả test nhanh âm tính với trạm y tế địa phương và nhận xác nhận khỏi bệnh.\n\nF0 khi cách ly, điều trị tại nhà cần phải thực hiện tốt các bước như: Khai báo y tế, thực hiện nghiêm 5K; Chấp hành nghiêm các quy định về thời gian cách ly y tế tại nhà; Không dùng chung đồ dùng, vật dụng cá nhân; Tự khử khuẩn nơi ở; Để riêng rác vào thùng có nắp đậy, loại bỏ rác thải riêng.\n\nF0 cần chủ động theo dõi sức khỏe, triệu chứng sinh tồn (mạch, huyết áp (nếu có máy đo), nhịp thở, nhiệt độ, SpO2); các triệu chứng (mệt mỏi, ớn lạnh, ho, mất mùi, đỏ mắt, tiêu chảy)…",
-      "image": "https://firebasestorage.googleapis.com/v0/b/blog-app-9d8cc.appspot.com/o/files%2F404.png?alt=media&token=ec4c40de-4dcd-4aa1-bd41-6863d0ebc713",
-      "addTime": "2022-04-03T05:37:38.518Z",
-      "user": {
-        "username": "teorpo",
-        "password": "0944",
-        "repeatPassword": "0944",
-        "id": 10
-      },
-      "id": 14
-    },
-    {
-      "title": "F0 âm tính bao lâu mới có thể ăn uống, tiếp xúc bình thường với người khác: Bác sĩ Trương Hữu Khanh giải đáp",
-      "content": "Rất nhiều F0 thắc mắc, khi khỏi bệnh dù mình test nhanh có kết quả âm tính nhưng sau khi thực hiện PCR lại thu về kết quả dương tính, lúc này cần làm gì? Hơn nữa sau bao lâu khỏi bệnh thì có thể được hòa nhập cùng cộng đồng?\n\nCác câu hỏi này sẽ được bác sĩ Trương Hữu Khanh (Phó Chủ tịch thường trực Liên chi hội Truyền nhiễm TP HCM) giải đáp ngay bên dưới đây.\n\"Tôi bị COVID đến nay đã được 7 ngày, làm xét nghiệm nhanh cho kết quả âm tính nhưng khi tôi làm PCR thì dương tính, tôi nên làm gì? Liệu có phải 100% F0 khỏi bệnh đều nên làm xét nghiệm PCR không?\"\n\nViệc test nhanh cho kết quả âm tính nhưng PCR lại dương là điều bình thường. Bởi lẽ test nhanh thường kém nhạy hơn test PCR, nếu còn quá ít virus thì test nhanh không hiện nhưng PCR lại có. Đó là lý do vì sao có tình trạng người phục hồi test nhanh đã âm nhưng PCR thì chưa, hoặc người mới bệnh tải lượng virus chưa lên cao thì test nhanh không thấy nhưng PCR lại \"2 vạch\".\n\nTest nhanh âm tính chỉ có nghĩa là nguy cơ lây thấp vì còn ít hoặc không còn virus ở đường hô hấp trên. Do đó vẫn phải tiếp tục theo dõi và cách ly đủ 10 ngày. Ví dụ ngày thứ 7 bạn test nhanh âm tính thì không được chủ quan, vẫn phải đeo khẩu trang, theo dõi SP02 đủ 10 ngày.\n\nVề câu hỏi có phải 100% khỏi bệnh đều nên thực hiện PCR không, theo tôi với F0 tự điều trị tại nhà thì không cần PCR vì hiện nay Bộ Y tế đã công nhận kết quả test nhanh rồi. F0 tự điều trị tại nhà chỉ cần tuân thủ đầy đủ thời gian cách ly do Bộ Y tế quy định. Kết quả PCR chỉ cần thiết nếu bạn là bệnh nhân F0 điều trị tại bệnh viện.\n\nTôi là F0, đã cách ly đủ 7 ngày và có test nhanh âm tính, khi nào thì tôi có thể tiếp xúc bình thường với người khác?\n\nSau khi có kết quả dương tính, bạn nên cách ly, điều trị đủ 7 ngày. Nên test lại sau 7 ngày kể từ ngày phát hiện dương tính để kết quả chính xác nhất, nếu có kết quả âm tính thì tiếp tục cách ly đủ 10 ngày, trong thời gian đó vẫn cần tiếp tục tuân thủ đeo khẩu trang, 5K. Thông báo kết quả test nhanh âm tính với trạm y tế địa phương và nhận xác nhận khỏi bệnh.\n\nF0 khi cách ly, điều trị tại nhà cần phải thực hiện tốt các bước như: Khai báo y tế, thực hiện nghiêm 5K; Chấp hành nghiêm các quy định về thời gian cách ly y tế tại nhà; Không dùng chung đồ dùng, vật dụng cá nhân; Tự khử khuẩn nơi ở; Để riêng rác vào thùng có nắp đậy, loại bỏ rác thải riêng.\n\nF0 cần chủ động theo dõi sức khỏe, triệu chứng sinh tồn (mạch, huyết áp (nếu có máy đo), nhịp thở, nhiệt độ, SpO2); các triệu chứng (mệt mỏi, ớn lạnh, ho, mất mùi, đỏ mắt, tiêu chảy)…",
-      "image": "https://firebasestorage.googleapis.com/v0/b/blog-app-9d8cc.appspot.com/o/files%2F404.png?alt=media&token=ec4c40de-4dcd-4aa1-bd41-6863d0ebc713",
-      "addTime": "2022-04-03T05:37:38.518Z",
-      "user": {
-        "username": "teorpo",
-        "password": "0944",
-        "repeatPassword": "0944",
-        "id": 10
-      },
       "id": 13
     },
     {
@@ -274,6 +256,169 @@
         "id": 10
       },
       "id": 11
+    },
+    {
+      "title": "Làm bánh quy hình thỏ, trứng đón lễ Phục sinh",
+      "content": "Khi lễ Phục sinh đến gần, hình ảnh những chú thỏ và quả trứng nhiều màu sắc xuất hiện khắp nơi.\nLễ Phục sinh được tổ chức nhằm tưởng niệm sự kiện Chúa Jesus hồi sinh. Đây là một trong những lễ hội quan trọng nhất của tín đồ theo đạo Kitô.\n\nLễ Phục sinh thường diễn ra vào chủ nhật bất kỳ trong khoảng 22/3 đến 25/4. Năm nay, lễ Phục sinh rơi vào ngày 17/4.\n\nVào dịp này, tín đồ đạo Kitô thường tặng nhau những món quà hình quả trứng hay con thỏ và thưởng thức món ăn truyền thống cùng gia đình.\n\nCông thức bánh quy hình quả trứng, thỏ nhiều màu sắc, sinh động dưới đây cũng là phiên bản ẩm thực hấp dẫn để bạn trổ tài trong dịp lễ này.\nNguyên liệu\n\n500 g bột mì\n250 g bơ (butter)\n200 g đường nâu nhạt\n2 quả trứng\nMột quả chanh (lấy phần vỏ)\nChiết xuất vani\nMột nhúm muối\nCách làm\n\nBước 1:\n\nTrộn bột mì với bơ lạnh đã cắt thành từng miếng nhỏ trong bát.\nTrộn đường nâu và trứng.\nThêm vỏ chanh, một chút muối và vài giọt chiết xuất vani.\nDùng tay nhào bột thật nhanh đến khi được khối bột mịn.\nỦ bột khoảng một giờ trong tủ lạnh.\nLấy bột ra, dùng cây lăn cán mỏng bột và tạo hình bánh quy bằng khuôn có họa tiết liên quan lễ Phục sinh.\nNướng bánh khoảng 12 phút trong lò (đã làm nóng trước) ở 160 độ C\n\nBước 2:\n\nLấy bánh đặt lên giá đựng và để nguội.\nChuẩn bị kem đường trắng, khắc các hình dạng khác nhau với cùng khuôn được sử dụng cho bánh quy.\nSử dụng màu tự nhiên để tô màu các chi tiết.\nĐặt phần kem đường trang trí lên bánh quy bằng cách làm ẩm ở đế và ấn nhẹ lên bánh.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/blog-app-9d8cc.appspot.com/o/files%2F1_6_scaled.webp?alt=media&token=87441bb6-290c-4cf1-b1d5-b5cbb2caa32b",
+      "addTime": "2022-04-03T13:59:04.228Z",
+      "user": {
+        "username": "teorpo",
+        "password": "0944",
+        "repeatPassword": "0944",
+        "id": 10,
+        "roles": [
+          "ADMIN",
+          "USER"
+        ]
+      },
+      "comments": [
+        {
+          "user": {
+            "username": "teorpo",
+            "password": "0944",
+            "repeatPassword": "0944",
+            "id": 10,
+            "roles": [
+              "ADMIN",
+              "USER"
+            ]
+          },
+          "addTime": "2022-04-03T14:00:14.214Z",
+          "content": "Hay",
+          "comments": [
+            {
+              "user": {
+                "username": "teorpo",
+                "password": "0944",
+                "repeatPassword": "0944",
+                "id": 10,
+                "roles": [
+                  "ADMIN",
+                  "USER"
+                ]
+              },
+              "addTime": "2022-04-03T14:00:18.434Z",
+              "content": "asdsadasd",
+              "comments": []
+            }
+          ]
+        }
+      ],
+      "id": 18
+    },
+    {
+      "title": "Công thức thịt gà kho xì dầu",
+      "content": "Thịt gà đùi được chiên vàng, kết hợp với các nguyên liệu như xì dầu, gừng, tỏi... mang lại cho bạn món ăn có màu đẹp, ngon miệng ngay từ miếng cắn đầu tiên.\nNguyên liệu\n\n6 miếng đùi gà, để nguyên xương và da\n3 quả trứng luộc\n200 g giò lụa (tùy khẩu vị)\n4 tép tỏi băm\n15 g gừng băm\n80 ml xì dầu\n30 ml hắc xì dầu\n15 g đường\n10 g tiêu đen xay\n30 ml dầu ăn\n3 bông hoa hồi\n5 nhánh đinh hương\nMột thanh quế\n500 ml nước\nHành lá\nPhương pháp chế biến\n\nBước 1:\n\nCho tỏi, gừng, xì dầu, hắc xì dầu, đường, hạt tiêu, hoa hồi, đinh hương và quế thanh vào tô, trộn đều và để sang bên cạnh.\nCho dầu ăn vào chảo nóng trên lửa lớn, cho thịt gà (úp mặt da xuống trước) vào chiên trong 3-4 phút hoặc đến khi vàng. Sau đó lật các miếng lại và để thêm 4 phút.\n\nBước 2:\n\nCho hỗn hợp sốt đã chuẩn bị sẵn vào và nấu đến khi sôi sủi bọt rồi thêm nước ngập mặt thịt gà.\nTiếp tục đun sôi, giảm lửa nhỏ và nấu tiếp trong khoảng 30 phút (không đậy vung).\nLật mặt thịt sau mỗi 10 phút để gà ngấm đều gia vị.\n\nBước 3:\n\nThêm trứng luộc và giò lụa vào chảo, cho ngập dưới mặt nước sốt.\nĐậy vung sau đó đun nhỏ lửa thêm khoảng 5 phút để trứng và giò ngấm gia vị.\n\nBước 4:\n\nTắt bếp, rắc tiêu đen xay và hành lá trang trí.\nĐể thưởng thức dễ hơn, có thể cắt thịt thành các miếng nhỏ vừa ăn.\n\nLưu ý\n\nCó thể thay thịt gà bằng thịt heo.\nĐể có hương vị thơm và cay hơn, cho thêm vài lát ớt tươi ở bước 2.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/blog-app-9d8cc.appspot.com/o/files%2F1.webp?alt=media&token=c783b497-843d-4c5a-b485-548bff33347f",
+      "addTime": "2022-04-03T14:15:34.317Z",
+      "user": {
+        "username": "teorpo",
+        "password": "0944",
+        "repeatPassword": "0944",
+        "id": 10,
+        "roles": [
+          "ADMIN",
+          "USER"
+        ]
+      },
+      "comments": [],
+      "id": 19,
+      "category": "Event"
+    },
+    {
+      "title": "Những hàng phở gà Hà Nội bán vài trăm bát một ngày",
+      "content": "Nguyệt, Mai Anh, Bản... là tên những hàng phở gà lâu đời, nổi tiếng tại Hà Nội. Trung bình mỗi quán bán hơn 600 bát một ngày.\nPhở gà Nguyệt (quận Hoàn Kiếm) từ lâu là quán nhiều người chọn lựa cho các bữa sáng. Có những ngày cao điểm khách phải ngồi đợi 15-20 phút mới tới lượt. Chị Nguyệt (áo đỏ, chủ quán) cho biết ban đầu hai vợ chồng chị kinh doanh phở gà cũng chỉ là sở thích cá nhân. Lúc mới mở, mỗi ngày quán chỉ bán hết khoảng 5-6 con gà, lâu dần cũng có thương hiệu, đến nay đã có thâm niên gần 15 năm.\nHàng chục con gà được người làm rửa sạch mỗi ngày. Nhưng để đảm bảo hơn về chất lượng quán này phải xát muối, gừng để khử hôi thêm một lần nữa.\nTiến (19 tuổi) và Phương Anh (19 tuổi), cho biết đã ăn ở đây nhiều lần vì không chọn được các quán khác hợp khẩu vị. \"Gà ở đây được luộc chắc thịt và không bị bở, bánh phở mềm và đặc biệt hơn hết là nước phở rất thanh\", Tiến nói.\n\nChủ quán cho biết, đa số khách hàng đến đây đều là khách quen, họ đến đây ăn cảm thấy ngon, hợp khẩu vị, rồi lại giới thiệu cho bạn bè. Lâu dần quán cũng có một lượng khách hàng ổn định mặc dù trải qua hai năm dịch Covid-19.\n\nMột bát phở tại đây có giá từ 40.000 đến 50.000 đồng tùy thuộc vào mỗi phần của con gà thực khách lựa chọn. Ngoài phở nước, quán còn bán thêm phở trộn, đây cũng là một món ăn mà nhiều người yêu thích. Dù diện tích nhỏ hẹp, trung bình mỗi ngày quán vẫn bán được khoảng 500-600 bát.\n\nHiện tại, phở Nguyệt có khoảng 15 nhân viên, buổi sáng có khoảng 3-4 nhân viên, nhưng vào buổi tối công suất phục vụ tại quán được tăng tối đa, duy trì hơn 6 tiếng đồng hồ từ 17h đến 23h30.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/blog-app-9d8cc.appspot.com/o/files%2Faphonguyet5_zing.webp?alt=media&token=bd636e82-3c64-4e2a-98d0-8deea764c4fd",
+      "addTime": "2022-04-03T14:52:10.661Z",
+      "user": {
+        "username": "teorpo",
+        "password": "0944",
+        "repeatPassword": "0944",
+        "id": 10,
+        "roles": [
+          "ADMIN",
+          "USER"
+        ]
+      },
+      "comments": [],
+      "category": "",
+      "id": 20
+    },
+    {
+      "title": "Món canh chua ngọt thanh theo bí quyết riêng của mẹ",
+      "content": "Dù con có thưởng thức bao nhiêu cao lương mỹ vị trên đời, món canh chua của mẹ vẫn xứng danh “đệ nhất thiên hạ” với hương vị ngọt thanh, dịu mát giúp giải nhiệt ngày hè oi nóng.\nLà người Việt, chắc hẳn ai cũng từng thưởng thức món canh chua thanh mát trong bữa cơm sum họp gia đình. Món canh chua mỗi vùng miền lại được nấu với nhiều nguyên liệu khác nhau, khi là dứa (thơm), cà chua; có nơi lại dùng khế, me để dậy vị chua thanh. Món canh càng thêm bổ dưỡng khi nấu cùng ngao, cá ba sa, cá diêu hồng, cá lóc, thịt băm… ăn kèm với giá, dọc mùng, măng, đậu bắp…, vừa dân dã truyền thống, vừa thấm đượm tinh hoa ẩm thực Việt.\n\nNgày bé, cứ mỗi lần mẹ nấu canh chua, mấy bố con lại có dịp “quét sạch” nồi cơm. Mẹ sẽ kỳ công đập dập rồi dằm me thật lâu để lấy nước cốt có vị chua thanh dễ chịu, nêm nếm bằng đường phèn cùng nước mắm ngon dậy vị thơm nức mũi. Khoanh cá mẹ chọn luôn tươi ngon, thơm mềm, miếng nào miếng nấy thịt săn chắc.\n\nCanh chua ăn ngon nhất có lẽ là vào những trưa hè oi ả, canh được chan trong bát cơm nóng, cả nhà cùng nhau xì xụp, cắn một miếng dứa hay cà chua thanh thanh mà thấy bao nhiêu mệt nhọc tan biến. Miếng cá lóc với từng thớ thịt trắng, mềm như tan trong miệng, ăn kèm dọc mùng hay đậu bắp giòn dai. Bố bảo, chỉ một bát canh chua mà đã gói gọn bao nhiêu nguyên liệu tinh túy của đất trời.\n\nThảng hoặc có ngày nào vét được miếng cơm cháy đáy nồi, mấy bố con lại hí hửng chấm vào bát canh chua, thích thú nhai vụn cơm giòn rụm lách tách trong miệng quyện cùng nước canh chua thanh. Tất cả đều trở thành những ký ức ngọt ngào, hạnh phúc về một bữa cơm gia đình ngon mắt, no bụng và chan chứa hương vị tình thân.\n\nKhi lớn lên, từng đứa trẻ dần rời xa vòng tay mẹ tỏa đi muôn phương để bắt đầu cuộc sống tự lập. Cứ mỗi lần đương đầu với thử thách hay bị sóng gió cuộc đời làm chao đảo, chúng ta đều nhớ tới gia đình như một điểm tựa vững chắc để nhắc mình mạnh mẽ trở lại. Và có lẽ trong nỗi nhớ ấy, bữa cơm thơm thảo của mẹ và bát canh chua nóng hổi, ngọt thanh lại tràn về xoa dịu tâm hồn nhỏ.\n\nThế nhưng không phải lúc nào chúng ta cũng có cơ hội phi như bay về nhà, ôm chầm lấy mẹ và trú ngụ trong tổ ấm an toàn. Guồng quay hối hả của cuộc sống giúp ta trưởng thành, học cách vượt qua sóng gió và tự tô màu cho cuộc sống của mình. Ta có thể mày mò nấu một bữa cơm hoàn chỉnh chiêu đãi bản thân, hay tập làm món canh chua để đời của tuổi thơ cho vơi nỗi nhớ nhà.\n\nDù con có thưởng thức bao nhiêu cao lương mỹ vị trên đời, món canh chua của mẹ vẫn xứng danh “đệ nhất thiên hạ” với hương vị ngọt thanh, dịu mát giúp giải nhiệt ngày hè oi nóng.\nLà người Việt, chắc hẳn ai cũng từng thưởng thức món canh chua thanh mát trong bữa cơm sum họp gia đình. Món canh chua mỗi vùng miền lại được nấu với nhiều nguyên liệu khác nhau, khi là dứa (thơm), cà chua; có nơi lại dùng khế, me để dậy vị chua thanh. Món canh càng thêm bổ dưỡng khi nấu cùng ngao, cá ba sa, cá diêu hồng, cá lóc, thịt băm… ăn kèm với giá, dọc mùng, măng, đậu bắp…, vừa dân dã truyền thống, vừa thấm đượm tinh hoa ẩm thực Việt.\n\nKnorr,  goi gia vi hoan chinh anh 1\nMón canh chua “hao cơm” trứ danh của mẹ.\nNgày bé, cứ mỗi lần mẹ nấu canh chua, mấy bố con lại có dịp “quét sạch” nồi cơm. Mẹ sẽ kỳ công đập dập rồi dằm me thật lâu để lấy nước cốt có vị chua thanh dễ chịu, nêm nếm bằng đường phèn cùng nước mắm ngon dậy vị thơm nức mũi. Khoanh cá mẹ chọn luôn tươi ngon, thơm mềm, miếng nào miếng nấy thịt săn chắc.\n\nCanh chua ăn ngon nhất có lẽ là vào những trưa hè oi ả, canh được chan trong bát cơm nóng, cả nhà cùng nhau xì xụp, cắn một miếng dứa hay cà chua thanh thanh mà thấy bao nhiêu mệt nhọc tan biến. Miếng cá lóc với từng thớ thịt trắng, mềm như tan trong miệng, ăn kèm dọc mùng hay đậu bắp giòn dai. Bố bảo, chỉ một bát canh chua mà đã gói gọn bao nhiêu nguyên liệu tinh túy của đất trời.\n\nThảng hoặc có ngày nào vét được miếng cơm cháy đáy nồi, mấy bố con lại hí hửng chấm vào bát canh chua, thích thú nhai vụn cơm giòn rụm lách tách trong miệng quyện cùng nước canh chua thanh. Tất cả đều trở thành những ký ức ngọt ngào, hạnh phúc về một bữa cơm gia đình ngon mắt, no bụng và chan chứa hương vị tình thân.\n\nKhi lớn lên, từng đứa trẻ dần rời xa vòng tay mẹ tỏa đi muôn phương để bắt đầu cuộc sống tự lập. Cứ mỗi lần đương đầu với thử thách hay bị sóng gió cuộc đời làm chao đảo, chúng ta đều nhớ tới gia đình như một điểm tựa vững chắc để nhắc mình mạnh mẽ trở lại. Và có lẽ trong nỗi nhớ ấy, bữa cơm thơm thảo của mẹ và bát canh chua nóng hổi, ngọt thanh lại tràn về xoa dịu tâm hồn nhỏ.\n\nThế nhưng không phải lúc nào chúng ta cũng có cơ hội phi như bay về nhà, ôm chầm lấy mẹ và trú ngụ trong tổ ấm an toàn. Guồng quay hối hả của cuộc sống giúp ta trưởng thành, học cách vượt qua sóng gió và tự tô màu cho cuộc sống của mình. Ta có thể mày mò nấu một bữa cơm hoàn chỉnh chiêu đãi bản thân, hay tập làm món canh chua để đời của tuổi thơ cho vơi nỗi nhớ nhà.\n\nNhững nguyên liệu tạo nên món canh chua thanh mát giải nhiệt ngày hè.\nBên cạnh các nguyên liệu tự chuẩn bị, bí quyết tạo nên món canh chua hoàn hảo của mẹ còn đến từ công thức gia giảm, nêm nếm gia vị - điều mà những đầu bếp “cây nhà lá vườn” như chúng ta khó có thể học hỏi thành công ngay tức khắc. Nhưng trong một khoảng thời gian ngắn ngủi chuẩn bị bữa cơm, món canh chua vẫn có thể thơm ngon tròn vị nhờ sự trợ giúp của gói gia vị hoàn chỉnh Knorr - công thức đã được gia giảm chỉn chu với đường, muối, nước mắm, me…\n\nKhông cần tốn công sức đong đếm từng loại gia vị, ta vẫn có thể tạo nên món canh chua đúng điệu truyền thống với màu sắc bắt mắt, mùi thơm dịu ngọt và hương vị hấp dẫn.\n\nKhông chỉ có canh chua, nhiều món ngon “quốc dân” như thịt hay cá kho cũng có thể chế biến dễ dàng chỉ trong “một nốt nhạc”. Chắc hẳn không ít người từng gặp phải tình huống dở khóc dở cười khi thắng đường kho thịt cá, vì không thể căn được “giờ vàng” tắt bếp mà chịu cảnh đường cháy khét lẹt. Nếu biết tận dụng gói gia vị hoàn chỉnh, ta đã có trong tay bí kíp làm món thịt kho trứng hay cá kho riềng sả “bất bại”, tự tin chiêu đãi bạn bè một bữa cơm bắt mắt, thơm ngon và đủ đầy dinh dưỡng.\n\nĐứa trẻ nào rồi cũng sẽ phải lớn lên, rời khỏi vòng tay mẹ để sải cánh bay ngoài bầu trời rộng lớn. Nhưng giữa nhịp sống vội vã tất bật, ta vẫn cần biết tự chăm sóc bản thân bằng những bữa cơm nóng sốt, ngọt lành. Để một ngày nào đó trở về nhà, ta có thể tự hào khoe với mẹ về “chiến công” trưởng thành của chính mình, rồi xắn tay áo vào bếp nấu tặng mẹ món canh chua tuổi thơ ngày nào.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/blog-app-9d8cc.appspot.com/o/files%2FKnorr_Canh_chua.webp?alt=media&token=40bf94ab-574e-4554-9419-3e68978a3577",
+      "addTime": "2022-04-03T14:54:01.502Z",
+      "user": {
+        "username": "teorpo",
+        "password": "0944",
+        "repeatPassword": "0944",
+        "id": 10,
+        "roles": [
+          "ADMIN",
+          "USER"
+        ]
+      },
+      "comments": [],
+      "category": "",
+      "id": 21
+    },
+    {
+      "title": "Món tôm say ở Trung Quốc",
+      "content": "Tôm được phục vụ sống trong tình trạng đã \"say ngắc ngoải\" vì rượu mạnh. Nhiều du khách thích thú với trải nghiệm ăn thử món này khi tới Trung Quốc.\n\nGiống sashimi nổi tiếng của Nhật Bản, tôm say hay tôm túy quyền cũng là một món ăn sống. Món này đặc biệt phổ biến ở các vùng ven biển Trung Quốc. Tuy nhiên, để có thể ăn tôm say, bạn phải chọn lọc và chế biến thật cẩn thật nếu không muốn bụng mình chứa toàn vi khuẩn sau bữa ăn. Ảnh: Wiki.\n\nVề cơ bản, món này có công thức khá đơn giản. Tôm được ngâm trong rượu để khiến chúng phải say. Ngoài ra, người nấu cũng phải chọn rượu mạnh, thường là 50 độ, nhằm loại bỏ vi khuẩn trên tôm. Việc làm sạch tôm cũng không đơn giản bởi bạn phải đảm bảo nó còn sống. Ăn nhầm một con tôm đã chết (khi chưa chế biến) sẽ khiến bạn có nguy cơ phải nhập viện. Ảnh: Eat What Tonight.\n\nSau khi chọn những con tôm tươi và làm sạch, người nấu chuẩn bị một bát lớn và đổ rượu trắng vào. Tiếp đó, bỏ tôm vào bát rượu và đậy cẩn thận bởi tôm say có thể giãy giụa và nhảy ra ngoài. Ảnh: The Mucnh Bunch.\n\nTiếp đó là công đoạn chuẩn bị nước sốt. Công thức tùy thuộc vào khẩu vị cá nhân. Tuy nhiên, nhìn chung, ở Trung Quốc, họ làm nước sốt từ rượu trộn với gừng, ớt, tỏi băm, xì dầu, giấm và đường. Bạn cũng có thể dùng mù tạt nếu thích. Với người không uống được rượu mạnh, phần nước sốt này nên làm bằng rượu gạo. Ảnh: Bear Naked Food.\n\nKhi tôm trong bát ngừng động đậy, bạn chỉ cần vớt chúng ra và ăn sống, kèm với nước sốt đã chuẩn bị trước đó. Ở một số nơi, người ta không ăn sống mà châm lửa đốt rượu trong 15-20 phút để tôm chuyển màu đỏ hồng thường thấy. Dù vậy, nhiều người vẫn thích ăn tôm sống hơn bởi nó sẽ đảm bảo độ ngọt tự nhiên. Ảnh: Food Republic.\n\nTheo QQ, việc ăn tôm say tiềm ẩn khá nhiều rủi ro về sức khỏe. Nó có thể gây ra những bệnh về giun, sán... Do đó, vệ sinh sạch sẽ và chọn những con tôm tươi ngon nhất là yếu tố quyết định khi làm món này. Ảnh: Spice n Pan.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/blog-app-9d8cc.appspot.com/o/files%2FDrunken_Prawn_5.webp?alt=media&token=9dc9e944-b8a7-4fff-ac88-9867b3452867",
+      "addTime": "2022-04-03T14:55:50.029Z",
+      "user": {
+        "username": "teorpo",
+        "password": "0944",
+        "repeatPassword": "0944",
+        "id": 10,
+        "roles": [
+          "ADMIN",
+          "USER"
+        ]
+      },
+      "comments": [],
+      "category": "",
+      "id": 22
+    },
+    {
+      "title": "Công thức salad giàu năng lượng cho tuần mới",
+      "content": "Với các thành phần tốt cho sức khỏe như hạt điều, diêm mạch, khoai lang, cà rốt, táo, nho, mật ong... món salad dễ làm dưới đây là gợi ý lý tưởng để bạn bồi bổ cơ thể.\n\nNguyên liệu\n\n100 g quinoa (hạt diêm mạch)\n200 ml nước\n200 g cà rốt\n300 g khoai lang\n120 g táo\nMột muỗng cà phê dầu dừa\n200 g rau chân vịt\nMột muỗng canh nho khô\n30 g hạt điều\nMột muỗng cà phê mù tạt\nMột muỗng cà phê mật ong\n2 muỗng canh giấm balsamic\n5 muỗng canh dầu olive\nMuối, tiêu\nCách làm\n\nBước 1:\n\nRửa sạch hạt diêm mạch dưới nước và cho vào nồi với nước muối, rồi đun sôi. Sau đó, đậy nắp và giảm mức nhiệt xuống thấp.\nNấu khoảng 15 phút đến khi mềm.\nTắt bếp và để yên, đậy nắp nồi trong khoảng 5 phút.\n\nBước 2:\n\nGọt vỏ cà rốt.\nCắt khoai lang, táo và cà rốt thành miếng vừa ăn.\n\nBước 3:\n\nÁp chảo khoai lang trên lửa vừa khoảng 6-10 phút đến khi chín vàng và mềm.\nThêm cà rốt vào xào 3-5 phút cho chín.\n\nBước 4:\n\nCho khoai lang, táo, cà rốt, rau chân vịt, nho khô và hạt điều vào tô lớn.\nTrộn đều các thành phần.\n\nBước 5:\n\nĐánh đều hỗn hợp gồm mù tạt, mật ong, giấm balsamic, dầu olive, muối và hạt tiêu.\nRưới hỗn hợp trên lên salad và đảo nhẹ để các thành phần kết hợp.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/blog-app-9d8cc.appspot.com/o/files%2FEnergySalad_step05_large_landscape_150.webp?alt=media&token=7d227d8e-5979-421e-8c6c-964a52d64b8c",
+      "addTime": "2022-04-03T14:57:06.807Z",
+      "user": {
+        "username": "teorpo",
+        "password": "0944",
+        "repeatPassword": "0944",
+        "id": 10,
+        "roles": [
+          "ADMIN",
+          "USER"
+        ]
+      },
+      "comments": [],
+      "category": "",
+      "id": 23
+    },
+    {
+      "title": "Công thức làm gà hấp nấm với lạp xưởng cho bữa tối",
+      "content": "Gà hấp với nấm và lạp xưởng là món ăn truyền thống ở tỉnh Quảng Đông, Trung Quốc. Người nội trợ chỉ mất khoảng 35 phút để chế biến món này.\n\nNguyên liệu\n10 miếng nấm hương khô\n500 g thịt đùi gà lọc xương\n80 g nước\nMột muỗng canh dầu ăn\nMột muỗng canh dầu hào\nMột muỗng cà phê dầu mè\nMột muỗng cà phê muối\n5 g gừng\n3 g hạt tiêu\n45-90 g lạp xưởng\n10 g bột bắp\nHành lá\nCách làm\nBước 1:\n\nNgâm nấm hương khô với nước khoảng 10-15 phút để loại bỏ bụi bẩn. Sau đó để ráo nước, thái thành lát mỏng.\nThịt gà thái miếng vừa ăn.\nGừng đập dập, băm miếng nhỏ.\nChuẩn bị bát tô, thêm thịt gà, nấm hương, nước, dầu ăn, dầu mè, dầu hào, muối, hạt tiêu, gừng và phần đầu trắng hành lá.\nTrộn đều các nguyên liệu, bọc kín bằng màng thực phẩm và ướp lạnh khoảng 20 phút.\n\nBước 2:\n\nChuẩn bị xưởng hấp (khoảng một lít nước), đun với lửa lớn đến khi sôi.\nTrong lúc đợi xưởng hấp nóng, bạn lấy gà ra khỏi ngăn mát tủ lạnh, thêm bột bắp và trộn đều.\n\nBước 3:\n\nChuyển thịt gà sang đĩa sâu lòng, rải đều lạp xưởng thái lát mỏng lên trên.\n\nBước 4:\n\nCẩn thận đặt đĩa vào xưởng và hấp với lửa lớn trong 10 phút. Sau đó tắt bếp và ủ gà thêm khoảng 3 phút.\nTrang trí món ăn với hành lá và thưởng thức kèm cơm nóng.\n\nLưu ý\nNếu sử dụng gà nguyên xương, bạn nên tăng thêm thời gian hấp khoảng 3-5 phút để tránh gà bị sống.\nThời gian ướp càng lâu, hương vị món ăn càng thơm và đậm đà.\nThay thế thịt gà bằng thịt bò hoặc thịt heo tùy khẩu vị.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/blog-app-9d8cc.appspot.com/o/files%2F911.webp?alt=media&token=df53b775-5350-4540-90c6-dccd1c961b00",
+      "addTime": "2022-04-03T14:58:35.665Z",
+      "user": {
+        "username": "teorpo",
+        "password": "0944",
+        "repeatPassword": "0944",
+        "id": 10,
+        "roles": [
+          "ADMIN",
+          "USER"
+        ]
+      },
+      "comments": [],
+      "id": 24
     }
   ]
 }

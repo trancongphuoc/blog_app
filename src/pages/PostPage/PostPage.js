@@ -6,6 +6,7 @@ import MyContext from '../../commons/MyContext.js';
 import bindModel from '../../commons/bindModel.js';
 import axios from 'axios';
 import { Link } from 'react-router-dom';
+import DeleteModal from '../../components/DeleteModal';
 export default class PostPage extends React.Component {
     constructor() {
         super();
@@ -51,6 +52,15 @@ export default class PostPage extends React.Component {
         }
     }
 
+    delete() {
+        const {post} = this.state;
+        const { history } = this.props;
+        axios.delete("http://localhost:3000/posts/" + post.id)
+            .then(res => {
+                toast.success("Xóa thành công");
+                history.push('/news');
+            })
+    }
 
     sendComment() {
         let { comment, post, commentReply, indexReply } = this.state;
@@ -107,6 +117,7 @@ export default class PostPage extends React.Component {
         const model = bindModel(this);
         return (
             <div>
+                {/* <DeleteModal></DeleteModal> */}
                 {post ? (
                     <main id="main">
                         <section className="intro-single">
@@ -127,8 +138,11 @@ export default class PostPage extends React.Component {
                                                 <li className="breadcrumb-item active" aria-current="page">
                                                     Tin tức
                                                 </li>
+                                                
                                             </ol>
                                         </nav>
+                                        <button onClick={() => this.delete()} data-toggle="modal" data-target="#exampleModal"  style={{"float": "right", "borderRadius": "0", "backgroundColor": "#2eca6a", "border": "none"}} className='btn btn-success'> Xóa</button>
+                                        <Link  to={"/edit-post/"+ post.id} style={{"float": "right", "borderRadius": "0", "backgroundColor": "#2eca6a", "border": "none", "marginRight": "20px"}} className='btn btn-success'>Chỉnh sửa</Link>
                                     </div>
                                 </div>
                             </div>
@@ -146,15 +160,15 @@ export default class PostPage extends React.Component {
                                         <div className="post-information">
                                             <ul className="list-inline text-center color-a">
                                                 <li className="list-inline-item mr-2">
-                                                    <strong>Author: </strong>
+                                                    <strong>Tác giả: </strong>
                                                     <span className="color-text-a"> {post.user.username} </span>
                                                 </li>
                                                 <li className="list-inline-item mr-2">
-                                                    <strong>Category: </strong>
-                                                    <span className="color-text-a">Travel</span>
+                                                    <strong>Tag: </strong>
+                                                    <span className="color-text-a">{post.category ? post.category : "Food"}</span>
                                                 </li>
                                                 <li className="list-inline-item">
-                                                    <strong>Date: </strong>
+                                                    <strong>Ngày tạo: </strong>
                                                     <span className="color-text-a">{new Date(post.addTime).toDateString()}</span>
                                                 </li>
                                             </ul>

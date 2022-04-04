@@ -5,7 +5,7 @@ import { toast } from 'react-toastify';
 import MyContext from '../../commons/MyContext.js';
 import bindModel from '../../commons/bindModel.js';
 import axios from 'axios';
-export default class CreatePostPage extends React.Component {
+export default class EditPostPage extends React.Component {
     constructor() {
         super();
 
@@ -25,16 +25,13 @@ export default class CreatePostPage extends React.Component {
 
         this.uploadImage = this.uploadImage.bind(this);
         this.createPost = this.createPost.bind(this);
+        this.getPost = this.getPost.bind(this);
     }
 
     uploadImage(event) {
         let file = event.target.files[0];
         console.log(file)
         if (!file) return;
-
-        this.setState({
-            loading: true
-        });
 
         const storageRef = ref(storage, `/files/${file.name}`);
         const uploadTask = uploadBytesResumable(storageRef, file);
@@ -53,11 +50,29 @@ export default class CreatePostPage extends React.Component {
                     let { post } = this.state;
                     post.image = url;
                     this.setState({
-                        post: post,
-                        loading: false
+                        post: post
                     })
                 })
             })
+    }
+
+    getPost() {
+        const postId = this.props.match.params.postId;
+        if (postId != null) {
+            axios.get("http://localhost:3000/posts/" + postId)
+                .then(res => {
+                    if (res.data != null) {
+                        console.log()
+                        this.setState({
+                            post: res.data
+                        })
+                    }
+                })
+        }
+    }
+
+    componentDidMount() {
+        this.getPost()
     }
 
     createPost() {
@@ -76,7 +91,7 @@ export default class CreatePostPage extends React.Component {
 
             post.addTime = new Date();
             post.user = user;
-            axios.post("http://localhost:3000/posts", post)
+            axios.patch("http://localhost:3000/posts/" + post.id, post)
                 .then(res => {
                     if (res.status == 201) {
                         this.setState({
@@ -90,8 +105,7 @@ export default class CreatePostPage extends React.Component {
                             },
                         })
                     }
-
-                    toast.success("Đăng bài thành công")
+                    toast.success("Cập nhật thành công")
 
                     this.setState({
                         loading: false
@@ -187,4 +201,4 @@ export default class CreatePostPage extends React.Component {
     }
 }
 
-CreatePostPage.contextType = MyContext;
+EditPostPage.contextType = MyContext;

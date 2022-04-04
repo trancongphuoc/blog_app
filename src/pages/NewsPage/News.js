@@ -53,7 +53,7 @@ export default class News extends React.Component {
       nextPage: nextPage
     })
 
-    axios.get("http://localhost:3000/posts?_limit=6&_page=" + pageSelect)
+    axios.get("http://localhost:3000/posts?_sort=id&_order=DESC&_limit=6&_page=" + pageSelect)
       .then(res => {
         this.setState({
           posts: res.data
@@ -108,12 +108,12 @@ export default class News extends React.Component {
                         <div className="card-overlay">
                           <div className="card-header-b">
                             <div className="card-category-b">
-                              <a href="#" className="category-b">Travel</a>
+                              <a href="#" className="category-b">{post.category ? post.category : "Food"}</a>
                             </div>
                             <div className="card-title-b">
                               <h2 className="title-2">
                                 <Link to={"/post/" + post.id}>{post.title.length > 100 ? post.title.substring(0, 100) + `...` : post.title}
-                                  <br /> new</Link>
+                                  <br /> </Link>
                               </h2>
                             </div>
                             <div className="card-date">

@@ -35,6 +35,12 @@ export default class Header extends Component {
               <li className="nav-item">
                 <Link className="nav-link" to="/news">Tin tức</Link>
               </li>
+              {user != null && user.roles != null && user.roles.includes("ADMIN") && (
+                <li className="nav-item">
+                <Link className="nav-link" to="/create-post">Đăng bài</Link>
+              </li>
+              )}
+              
               {/* <li className="nav-item">
                   <a className="nav-link " href="property-grid.html">Property</a>
                 </li>
